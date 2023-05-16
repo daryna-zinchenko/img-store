@@ -1,0 +1,16 @@
+.gallery {
+  display: grid;
+  width: 80%;
+  margin: 0 auto;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  gap: 20px;
+}
+
+.gallery__card {
+  width: 300px;
+  height: 300px;
+
+  border: 1px solid grey;
+  border-radius: 5px;
+}
